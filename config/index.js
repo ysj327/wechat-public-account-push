@@ -47,7 +47,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "wLNn3k3yDfHV0xGGcCN_Gg2bRXzQldjjHhIOjLErjk8",
+  CALLBACK_TEMPLATE_ID: "	V1wIZFlWtzINv-iSX7AeuWUWgNUBNuvD9okvrbJ1BvQ",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
