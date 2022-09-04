@@ -79,11 +79,13 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1998", "date": "05-22"},
+   / {"type": "生日", "name": "老婆", "year": "1998", "date": "05-22"},
     {"type": "节日", "name": "结婚纪念日", "year": "2021", "date": "09-30"},
  
   ],
-
+  birthdays: [
+     { "name": "老婆", "year": "1998", "date": "05-22","type": "r"},
+    ]
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -100,6 +102,7 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2019-10-23"},
+
     // 结婚纪念日
     {"keyword": "marry_day", date: "2021-09-30"},
     // 退伍日, 不用可以删掉
